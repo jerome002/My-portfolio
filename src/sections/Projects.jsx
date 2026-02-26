@@ -51,7 +51,7 @@ function Projects() {
             PROJECTS
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
-            Real-world applications I've built
+             Applications I've built to solve real-world problems and demonstrate my skills
           </h2>
         </div>
 

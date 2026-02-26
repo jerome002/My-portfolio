@@ -1,16 +1,90 @@
-# React + Vite
+## Jerome's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Full-Stack MERN developer portfolio showcasing projects, skills, experience, and professional background.
 
-Currently, two official plugins are available:
+Live Demo: https://my-portfolio-dusky-pi-28.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GitHub Repository: https://github.com/jerome002/My-portfolio
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is designed to highlight Jerome Kapkor’s skills as a Full-Stack Developer. It includes:
 
-## Expanding the ESLint configuration
+Professional summary and career goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technical skills (Frontend, Backend, Database, Tools)
+
+Full-stack projects with live demos and GitHub links
+
+Experience, education, and certifications
+
+Contact information with social links
+
+The website is fully responsive, modern, and accessible, built with React, Vite, and Tailwind CSS, and optimized for deployment on Vercel.
+
+Features
+
+Hero Section: Clear introduction with CTA buttons to projects and contact
+
+About Me: Professional background and development focus
+
+Skills Section: Categorized technical skills with modern UI
+
+Projects Section: Highlights key projects with links to live demos and code
+
+Experience & Education: Work history, internships, freelance work, and academic qualifications
+
+Contact Section: Email, phone, GitHub, LinkedIn, and social links
+
+Footer: Languages, availability, and professional references
+
+Tech Stack
+
+Frontend: React.js, Tailwind CSS, Vite, HTML5, CSS3
+
+Backend: Node.js, Express.js (for linked full-stack projects)
+
+Database: MongoDB (for full-stack projects)
+
+Tools & Platforms: Git, GitHub, Postman, VS Code, Linux
+
+Other: JWT Authentication, API Integration, Agile Development
+
+Setup Instructions (Local Development)
+Clone the repository
+git clone https://github.com/jerome002/jerome-portfolio.git
+cd jerome-portfolio
+Install dependencies
+npm install
+Run the development server
+npm run dev
+
+Open http://localhost:5173
+ in your browser.
+
+Build for production
+npm run build
+
+The production-ready files are in the dist/ folder and ready for deployment.
+
+Deployment
+
+This portfolio is deployed on Vercel, with automatic deployment on pushes to the main branch.
+
+Live URL: https://my-portfolio-dusky-pi-28.vercel.app/
+
+Contact
+
+Jerome Kapkor Kimosop
+
+📧 Email: jkapkor@gmail.com
+
+📞 Phone: +254 745515976
+
+🔗 GitHub
+
+🔗 LinkedIn
+
+License
+
+This project is licensed under the MIT License.
