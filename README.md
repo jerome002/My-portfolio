@@ -1,6 +1,6 @@
-## Jerome's Portfolio
+# Jerome Kapkor - Full-Stack Engineer Portfolio
 
-A modern, responsive Full-Stack MERN developer portfolio showcasing projects, skills, experience, and professional background.
+A modern, performance-optimized portfolio showcasing expertise in scalable architectures, microservices, and full-stack development with a focus on clean code and developer experience.
 
 Live Demo: https://my-portfolio-dusky-pi-28.vercel.app/
 
@@ -8,45 +8,41 @@ GitHub Repository: https://github.com/jerome002/My-portfolio
 
 ## Project Overview
 
-This portfolio is designed to highlight Jerome Kapkor’s skills as a Full-Stack Developer. It includes:
+This portfolio demonstrates Jerome Kapkor's capabilities as a Senior Full-Stack Engineer, featuring:
 
-Professional summary and career goals
+- **Value Proposition**: Architecting scalable solutions with low-latency performance
+- **Tech Stack (The Engine)**: Comprehensive toolkit for modern development
+- **Selected Works**: Deep-dive case studies with challenges, solutions, and impact metrics
+- **Engineering Philosophy**: Commitment to Clean Code, TDD, and Mentorship
+- **Professional Background**: Experience, education, and technical leadership
 
-Technical skills (Frontend, Backend, Database, Tools)
+Built with performance optimization, accessibility (a11y), and SEO best practices.
 
-Full-stack projects with live demos and GitHub links
+## Features
 
-Experience, education, and certifications
+- **Hero Section**: High-impact value proposition with engineering focus
+- **Tech Stack**: Grouped by Languages, Frameworks, DevOps, and Testing
+- **Selected Works**: Senior-level case studies with technical challenges and business impact
+- **Engineering Philosophy**: Principles of clean code, TDD, and collaboration
+- **Experience & Education**: Professional journey and technical expertise
+- **Contact/CTA**: Professional networking and resume access
 
-Contact information with social links
+## Tech Stack
 
-The website is fully responsive, modern, and accessible, built with React, Vite, and Tailwind CSS, and optimized for deployment on Vercel.
+**Frontend**: React.js (Hooks, Context), Tailwind CSS, Vite, HTML5, CSS3
+**Backend**: Node.js, Express.js, Microservices Architecture
+**Database**: MongoDB, PostgreSQL
+**DevOps**: Docker, AWS, CI/CD, Vercel/Render
+**Testing**: Jest, React Testing Library, Cypress
+**Tools**: Git, GitHub Actions, ESLint, Prettier, VS Code
 
-Features
+## Performance Optimizations
 
-Hero Section: Clear introduction with CTA buttons to projects and contact
-
-About Me: Professional background and development focus
-
-Skills Section: Categorized technical skills with modern UI
-
-Projects Section: Highlights key projects with links to live demos and code
-
-Experience & Education: Work history, internships, freelance work, and academic qualifications
-
-Contact Section: Email, phone, GitHub, LinkedIn, and social links
-
-Footer: Languages, availability, and professional references
-
-Tech Stack
-
-Frontend: React.js, Tailwind CSS, Vite, HTML5, CSS3
-
-Backend: Node.js, Express.js (for linked full-stack projects)
-
-Database: MongoDB (for full-stack projects)
-
-Tools & Platforms: Git, GitHub, Postman, VS Code, Linux
+- Lazy loading for code splitting
+- Image optimization with WebP
+- Core Web Vitals optimization
+- Docker containerization for consistent deployment
+- SEO meta tags and structured data
 
 Other: JWT Authentication, API Integration, Agile Development
 

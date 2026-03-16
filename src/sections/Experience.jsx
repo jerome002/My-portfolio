@@ -16,10 +16,10 @@ function Experience() {
       company: "Self-Employed | Personal Projects",
       years: "2024 – Present",
       points: [
-        "Designed and developed full-stack web applications using the MERN stack.",
-        "Built scalable REST APIs with authentication and structured database modeling.",
-        "Implemented clean backend architecture for real-world problem solving.",
-        "Continuously improving system design, performance optimization, and code quality.",
+        "Developed full-stack web applications using React, Node.js, and MongoDB",
+        "Built REST APIs with user authentication and database integration",
+        "Gained experience with modern development tools and deployment platforms",
+        "Continuously learning new technologies and improving coding skills",
       ],
     },
     {
@@ -36,16 +36,16 @@ function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-24 px-6 bg-white">
+    <section id="experience" className="py-24 px-6 bg-deep-slate">
       <div className="max-w-6xl mx-auto">
 
         {/* Section Header */}
         <div className="mb-14 text-center">
-          <p className="text-blue-600 font-semibold tracking-wide mb-2">
+          <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
             EXPERIENCE
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
-            My Professional Journey
+          <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
+            Professional Journey in Engineering
           </h2>
         </div>
 
@@ -54,18 +54,17 @@ function Experience() {
           {experiences.map((exp) => (
             <div
               key={exp.role}
-              className="bg-slate-50 p-8 rounded-2xl border border-gray-100 shadow-sm
-                         hover:shadow-md hover:-translate-y-2 transition duration-300"
+              className="card p-8 hover:shadow-md hover:-translate-y-2 transition duration-300"
             >
               {/* Role + Company */}
-              <h3 className="text-xl font-semibold text-slate-900 mb-1">
+              <h3 className="text-xl font-semibold text-white mb-1 font-heading">
                 {exp.role}
               </h3>
-              <p className="text-gray-500 mb-4">{exp.company}</p>
-              <p className="text-gray-400 text-sm mb-4">{exp.years}</p>
+              <p className="text-text-secondary mb-4">{exp.company}</p>
+              <p className="text-text-secondary text-sm mb-4">{exp.years}</p>
 
               {/* Responsibilities */}
-              <ul className="space-y-2 text-gray-600 list-disc list-inside">
+              <ul className="space-y-2 text-text-secondary list-disc list-inside">
                 {exp.points.map((point, idx) => (
                   <li key={idx}>{point}</li>
                 ))}

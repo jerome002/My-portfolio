@@ -1,2 +1,55 @@
+@theme {
+  --color-deep-slate: #0f172a;
+  --color-refined-charcoal: #1e293b;
+  --color-electric-indigo: #6366f1;
+  --color-emerald: #10b981;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --font-family-heading: "Montserrat", sans-serif;
+  --font-family-body: "Roboto", sans-serif;
+}
+
 @import "tailwindcss";
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (prefers-contrast: high) {
+  .text-gray-600 { color: #000; }
+  .bg-slate-50 { background-color: #fff; }
+}
+
+/* Micro-interactions */
+.hover-lift {
+  transition: all 0.25s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 25px -10px rgba(0, 0, 0, 0.35);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-electric-indigo text-white px-6 py-3 rounded-lg font-medium hover:bg-electric-indigo/80 transition duration-300 border border-electric-indigo/20;
+}
+
+.btn-outline {
+  @apply border border-electric-indigo text-electric-indigo px-6 py-3 rounded-lg font-medium hover:bg-electric-indigo hover:text-white transition duration-300;
+}
+
+/* Card styles - Glassmorphism */
+.card {
+  @apply bg-refined-charcoal/80 backdrop-blur-sm border border-electric-indigo/20 rounded-2xl shadow-lg;
+}
+
+.card-strong {
+  @apply bg-refined-charcoal/90 backdrop-blur-md border border-electric-indigo/30 rounded-3xl shadow-xl;
+}
 

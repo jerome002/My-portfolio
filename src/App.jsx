@@ -1,20 +1,20 @@
 import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
-import About from "./sections/About"
-import Skills from "./sections/Skills"
-import Projects from "./sections/Projects"
+import TechStack from "./sections/TechStack"
+import SelectedWorks from "./sections/SelectedWorks"
+import EngineeringPhilosophy from "./sections/EngineeringPhilosophy"
 import Experience from "./sections/Experience"
-import Contact from "./sections/Contact"
 import Education from "./sections/Education"
+import Contact from "./sections/Contact"
 
 function App() {
   return (
-    <div className="bg-white text-gray-800">
+    <div className="min-h-screen bg-deep-slate text-text-primary font-body">
       <Navbar />
       <Hero />
-      <About />
-      <Skills />
-      <Projects />
+      <TechStack />
+      <SelectedWorks />
+      <EngineeringPhilosophy />
       <Experience />
       <Education />
       <Contact />
