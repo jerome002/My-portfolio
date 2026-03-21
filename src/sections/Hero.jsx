@@ -10,7 +10,7 @@ function Hero() {
         <div>
           {/* Small intro */}
           <p className="text-electric-indigo font-semibold mb-4 tracking-wide font-heading">
-            BACKEND ENGINEER
+            FULL-STACK ENGINEER & SYSTEMS DESIGNER
           </p>
 
           {/* Headline */}
