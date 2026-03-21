@@ -18,7 +18,7 @@ function SelectedWorks() {
     **Focus:** Authentication systems, API security, and production-ready backend architecture.
   `,
   tech: ["Node.js", "Express", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker"],
-  In Progress: "", 
+  InProgress: "", 
   github: "https://github.com/jerome002/auth-service.git",
 },
     {

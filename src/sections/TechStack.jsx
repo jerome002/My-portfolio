@@ -72,7 +72,7 @@ function TechStack() {
         {/* Section Header */}
         <div className="mb-14 text-center">
           <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-            THE ENGINE
+            SKILLS
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
             Technologies & Systems I Work With
