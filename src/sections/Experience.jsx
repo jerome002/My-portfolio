@@ -1,36 +1,27 @@
 function Experience() {
   const experiences = [
     {
-      role: "ICT Intern",
-      company: "Ministry of Education",
-      years: "2025 – 2026",
+      role: "Software Engineer (Self-Driven)",
+      company: "Backend & Full-Stack Projects",
+      years: "2023 – Present",
       points: [
-        "Provided IT support for hardware, software, and network systems.",
-        "Assisted in database management and internal digital workflows.",
-        "Supported staff with technical troubleshooting and training.",
-        "Gained exposure to enterprise-level IT environments.",
-      ],
-    },
-    {
-      role: "Independent Developer",
-      company: "Self-Employed | Personal Projects",
-      years: "2024 – Present",
-      points: [
-        "Developed full-stack web applications using React, Node.js, and MongoDB",
-        "Built REST APIs with user authentication and database integration",
-        "Gained experience with modern development tools and deployment platforms",
-        "Continuously learning new technologies and improving coding skills",
+        "Designed and developed backend systems using Node.js, Express, and TypeScript",
+        "Built RESTful APIs with authentication (JWT) and role-based access control",
+        "Developed a production-oriented authentication microservice with modular architecture",
+        "Integrated PostgreSQL and MongoDB with Prisma and Mongoose for data management",
+        "Implemented Docker-based environments and CI/CD pipelines using GitHub Actions",
+        "Structured applications using clean architecture principles and service-based design",
       ],
     },
     {
       role: "Stock Controller",
-      company: "Inventory & Operations Management",
-      years: "2023 – 2025",
+      company: "Kipevu Restaurant and 109 Tavern",
+      years: "2023 – 2026",
       points: [
-        "Managed inventory tracking systems to ensure accuracy and accountability.",
-        "Analyzed stock movement data to support operational decision-making.",
-        "Maintained structured reporting systems in high-volume environments.",
-        "Developed strong analytical, organizational, and process optimization skills.",
+        "Managed inventory systems ensuring data accuracy and consistency across operations",
+        "Analyzed stock movement data to support operational decision-making",
+        "Maintained structured reporting workflows in high-volume environments",
+        "Developed strong analytical thinking and process optimization skills applicable to system design",
       ],
     },
   ];
@@ -45,7 +36,7 @@ function Experience() {
             EXPERIENCE
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
-            Professional Journey in Engineering
+            Engineering Experience & Professional Background
           </h2>
         </div>
 

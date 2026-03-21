@@ -1,41 +1,80 @@
 function SelectedWorks() {
   const projects = [
     {
+  title: "Auth Service (Authentication Microservice)",
+  description: `
+    **Overview:** A production-oriented authentication service designed as a standalone microservice to handle user identity, access control, and secure session management.
+
+    **What I Built:** Developed a modular authentication system that can be integrated into multiple applications, supporting secure login flows, token management, and role-based access control.
+
+    **Key Engineering Work:**
+    - Implemented JWT-based authentication with access and refresh tokens
+    - Designed secure authentication flows (login, registration, token refresh)
+    - Built Role-Based Access Control (RBAC) for protected routes
+    - Structured the codebase into controllers, services, and middleware
+    - Added centralized error handling and input validation
+    - Integrated PostgreSQL with Prisma for reliable data management
+
+    **Focus:** Authentication systems, API security, and production-ready backend architecture.
+  `,
+  tech: ["Node.js", "Express", "TypeScript", "PostgreSQL", "Prisma", "JWT", "Docker"],
+  live: "In progess", 
+  github: "https://github.com/jerome002/auth-service.git",
+},
+    {
       title: "FinFlow Platform",
       description: `
-        **The Challenge:** Financial institutions were plagued by slow transaction processing and frequent system outages, resulting in customer dissatisfaction, lost revenue, and operational inefficiencies.
-        
-        **The Solution:** Architected a microservices architecture with API gateway orchestration, implementing event-driven communication and distributed caching to achieve horizontal scalability and fault tolerance.
-        
-        **The Impact:** Reduced transaction processing latency by 60% and improved system reliability, enabling seamless financial operations for enterprise clients with zero downtime during peak loads.
+        **Overview:** A full-stack financial platform designed to handle transactions and user data reliably using a modular backend architecture.
+
+        **What I Built:** Developed a microservices-inspired backend with clear service boundaries, handling transaction processing, user management, and API routing through a centralized gateway.
+
+        **Key Engineering Work:**
+        - Designed RESTful APIs for financial operations
+        - Implemented structured error handling and logging
+        - Integrated database operations with optimized queries
+        - Containerized services using Docker for consistent deployment
+
+        **Focus:** Backend architecture, scalability, and maintainability in a distributed system design.
       `,
-      tech: ["React", "Node.js", "Express", "MongoDB", "Microservices", "Docker", "Render"],
+      tech: ["React", "Node.js", "Express", "MongoDB", "Docker"],
       live: "https://finflow-frontend-j8xm.onrender.com",
       github: "https://github.com/jerome002/finflow-platform",
     },
     {
       title: "Job Application Assistant",
       description: `
-        **The Challenge:** Job seekers struggled with disorganized tracking of applications across multiple platforms, leading to missed opportunities, forgotten deadlines, and inefficient recruitment processes.
-        
-        **The Solution:** Developed a real-time dashboard with WebSocket integration for live updates, implementing memoization for performance optimization and a component library for consistent UI/UX.
-        
-        **The Impact:** Improved application success rates by 40% through automated reminders and centralized tracking, with 95% user satisfaction scores and reduced cognitive load for job seekers.
+        **Overview:** A full-stack application that helps users track and manage job applications in a centralized dashboard.
+
+        **What I Built:** Created a React-based frontend integrated with a backend API to manage application data, user sessions, and real-time updates.
+
+        **Key Engineering Work:**
+        - Built REST APIs for CRUD operations on applications
+        - Implemented real-time updates using WebSockets
+        - Structured frontend components for scalability
+        - Managed state and API communication efficiently
+
+        **Focus:** Full-stack integration, real-time systems, and user-focused application design.
       `,
-      tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Vercel"],
+      tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
       live: "https://job-application-assistant-seven.vercel.app",
       github: "https://github.com/jerome002/job-app-platform",
     },
     {
       title: "Skill Swap API",
       description: `
-        **The Challenge:** Professionals faced difficulties in finding suitable peers for skill exchange and mentorship, resulting in knowledge silos and limited opportunities for professional growth.
-        
-        **The Solution:** Built a RESTful API with user authentication, intelligent matching algorithms, and real-time notifications, leveraging Node.js and MongoDB for scalable backend services.
-        
-        **The Impact:** To connect over 500 users, enabling 200+ successful skill exchanges and fostering professional development through peer-to-peer learning and mentorship.
+        **Overview:** A backend service for connecting users interested in skill exchange and peer-to-peer learning.
+
+        **What I Built:** Designed and implemented a RESTful API with authentication, user matching logic, and notification handling.
+
+        **Key Engineering Work:**
+        - Implemented JWT-based authentication and authorization
+        - Designed database schemas for users and skill relationships
+        - Built matching logic for connecting users
+        - Developed modular route and service structure
+
+        **Focus:** API design, authentication systems, and backend architecture.
       `,
-      tech: ["Node.js", "Express", "MongoDB", "JWT", "Socket.io", "Heroku"],
+      tech: ["Node.js", "Express", "MongoDB", "JWT"],
       live: "https://skill-swap-api.herokuapp.com",
       github: "https://github.com/jerome002/skill-swap-api",
     },
@@ -47,11 +86,11 @@ function SelectedWorks() {
 
         {/* Section Header */}
         <div className="mb-14 text-center">
-        <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-          SELECTED WORKS
-        </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
-             Deep Dives into Scalable Engineering Solutions
+          <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
+            SELECTED WORKS
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
+            Engineering Projects Focused on Real-World Systems
           </h2>
         </div>
 

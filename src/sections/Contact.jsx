@@ -15,7 +15,8 @@ function Contact() {
 
         {/* Description */}
         <p className="text-text-secondary mb-10 leading-relaxed">
-          Ready to architect scalable solutions together. Reach out for opportunities in senior engineering roles.
+          I build backend systems focused on scalability, security, and maintainability. 
+          Reach out for collaborations, freelance projects, or backend engineering opportunities.
         </p>
 
         {/* Contact Info */}

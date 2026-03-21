@@ -9,31 +9,44 @@ function EngineeringPhilosophy() {
             ENGINEERING PHILOSOPHY
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
-            Principles Driving Scalable, Maintainable Code
+            Principles Behind My Approach to Building Systems
           </h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
+
           <div className="card p-8 bg-refined-charcoal border border-electric-indigo/20 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold text-white mb-3 font-heading">Clean Code First</h3>
+            <h3 className="text-xl font-semibold text-white mb-3 font-heading">
+              Clean & Maintainable Code
+            </h3>
             <p className="text-text-secondary text-sm">
-              I write self-documenting code with meaningful names, single responsibility principles, and comprehensive documentation. Every line serves a purpose in the system's architecture.
+              I focus on writing clear, modular code with separation of concerns. 
+              I structure applications using controllers, services, and middleware 
+              to ensure scalability and long-term maintainability.
             </p>
           </div>
 
           <div className="card p-8 bg-refined-charcoal border border-electric-indigo/20 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold text-white mb-3 font-heading">Test-Driven Development</h3>
+            <h3 className="text-xl font-semibold text-white mb-3 font-heading">
+              Reliable & Testable Systems
+            </h3>
             <p className="text-text-secondary text-sm">
-              TDD ensures reliability and prevents regressions. I write tests before features, achieving high coverage and confidence in deployments through automated CI/CD pipelines.
+              I write tests for critical parts of my applications using tools like 
+              Vitest and Supertest to ensure API reliability and prevent regressions 
+              as systems evolve.
             </p>
           </div>
 
           <div className="card p-8 bg-refined-charcoal border border-electric-indigo/20 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold text-white mb-3 font-heading">Mentorship & Collaboration</h3>
+            <h3 className="text-xl font-semibold text-white mb-3 font-heading">
+              Continuous Improvement
+            </h3>
             <p className="text-text-secondary text-sm">
-              I actively mentor junior developers, conduct code reviews, and foster knowledge sharing. Strong collaboration leads to better solutions and team growth.
+              I continuously improve my skills in backend engineering, system design, 
+              and DevOps by building real-world projects and applying modern development practices.
             </p>
           </div>
+
         </div>
 
       </div>

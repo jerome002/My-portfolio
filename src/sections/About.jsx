@@ -9,7 +9,7 @@ function About() {
             ABOUT ME
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Building scalable systems and digital solutions
+            Backend-focused engineer building scalable systems
           </h2>
         </div>
 
@@ -19,15 +19,15 @@ function About() {
           {/* Left Side - Story */}
           <div>
             <p className="text-slate-300 leading-relaxed text-lg">
-              I'm a passionate Full-Stack Developer with experience building web applications using the MERN stack. I enjoy creating solutions that make a real difference in people's lives.
+              I'm a backend-focused software engineer specializing in building scalable, production-ready systems using TypeScript, Node.js, and modern web technologies. I focus on designing secure APIs, handling data efficiently, and structuring applications for long-term maintainability.
             </p>
 
             <p className="text-slate-300 mt-6 leading-relaxed">
-              My journey in software development started with a curiosity about how things work on the web. I've grown from basic HTML/CSS to building complex full-stack applications, and I'm always excited to learn new technologies.
+              My journey started with curiosity about how the web and Telecomunication works , but quickly evolved into a deeper interest in how systems are designed behind the scenes. Today, I focus on backend architecture, authentication systems, and building applications that reflect real-world engineering practices.
             </p>
 
             <p className="text-slate-300 mt-6 leading-relaxed">
-              Currently, I'm working on projects like job application platforms and financial management tools, while continuously improving my skills in modern development practices.
+              Currently, I'm building a production-grade authentication microservice and improving my skills in system design, Docker, and CI/CD pipelines to align with modern backend engineering standards.
             </p>
           </div>
 
@@ -36,28 +36,28 @@ function About() {
 
             <div className="card p-6 hover:shadow-lg transition">
               <h3 className="font-semibold text-white mb-2">
-                Problem-Solving Mindset
+                Systems Thinking
               </h3>
               <p className="text-slate-300 text-sm">
-                I enjoy breaking down complex problems and finding practical solutions through code.
+                I design applications with scalability, maintainability, and real-world usage in mind.
               </p>
             </div>
 
             <div className="card p-6 hover:shadow-lg transition">
               <h3 className="font-semibold text-white mb-2">
-                Continuous Learning
+                Backend Specialization
               </h3>
               <p className="text-slate-300 text-sm">
-                I'm always excited to learn new technologies and improve my development skills.
+                Strong focus on APIs, authentication, databases, and clean backend architecture.
               </p>
             </div>
 
             <div className="card p-6 hover:shadow-lg transition">
               <h3 className="font-semibold text-white mb-2">
-                Team Player
+                Continuous Improvement
               </h3>
               <p className="text-slate-300 text-sm">
-                I work well in collaborative environments and value feedback from experienced developers.
+                Actively learning system design, DevOps practices, and production-grade development workflows.
               </p>
             </div>
 

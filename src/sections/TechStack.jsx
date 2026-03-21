@@ -1,39 +1,66 @@
 function TechStack() {
   const techStack = [
     {
-      category: "Languages",
+      category: "Backend Engineering",
       items: [
-        "JavaScript (ES6+)",
-        "Python",
-        "HTML5 & CSS3",
-        "SQL"
-      ],
-    },
-    {
-      category: "Frameworks & Libraries",
-      items: [
-        "React (Hooks, Context, Redux)",
         "Node.js & Express",
-        "Tailwind CSS",
-        "MongoDB & PostgreSQL"
+        "TypeScript",
+        "REST API Design",
+        "Authentication (JWT, RBAC)",
+        "Middleware Architecture",
+        "Error Handling & Logging",
+        "Microservices Fundamentals"
       ],
     },
     {
-      category: "DevOps & Deployment",
+      category: "Database & Data Layer",
       items: [
-        "Docker & Containerization",
-        "AWS (EC2, S3, Lambda)",
-        "CI/CD with GitHub Actions",
-        "Vercel & Render"
+        "PostgreSQL",
+        "MongoDB",
+        "Prisma ORM",
+        "Mongoose",
+        "Data Modeling",
+        "Query Optimization"
       ],
     },
     {
       category: "Testing & Quality",
       items: [
-        "Jest & React Testing Library",
-        "Cypress for E2E",
-        "ESLint & Prettier",
-        "Performance Monitoring"
+        "Vitest",
+        "Supertest",
+        "API Testing",
+        "Integration Testing",
+        "Test Structuring"
+      ],
+    },
+    {
+      category: "Frontend Development",
+      items: [
+        "React (Hooks, Context)",
+        "Tailwind CSS",
+        "API Integration",
+        "Component-Based Architecture",
+        "Responsive UI Design"
+      ],
+    },
+    {
+      category: "DevOps & Infrastructure",
+      items: [
+        "Docker & Containerization",
+        "CI/CD with GitHub Actions",
+        "Environment Configuration",
+        "Vercel Deployment",
+        "Render Deployment"
+      ],
+    },
+    {
+      category: "Languages & Core",
+      items: [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "HTML5 & CSS3"
       ],
     },
   ];
@@ -48,9 +75,14 @@ function TechStack() {
             THE ENGINE
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
-            Technologies Powering Scalable Solutions
+            Technologies & Systems I Work With
           </h2>
         </div>
+
+        {/* Positioning Line */}
+        <p className="text-slate-400 max-w-xl mx-auto mb-10 text-center">
+          Focused on backend engineering, system design, and building production-ready services.
+        </p>
 
         {/* Skills Grid */}
         <div className="grid md:grid-cols-3 gap-8">
@@ -84,8 +116,8 @@ function TechStack() {
         {/* Bottom Highlight */}
         <div className="mt-14 text-center">
           <p className="text-slate-300 max-w-2xl mx-auto">
-            I'm continuously expanding my skill set by learning modern technologies, 
-            building projects, and staying curious about new developments in web development.
+            I build backend systems with a focus on scalability, security, and maintainability, 
+            while continuously improving in system design, testing, and DevOps practices.
           </p>
         </div>
 

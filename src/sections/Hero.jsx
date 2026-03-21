@@ -10,29 +10,28 @@ function Hero() {
         <div>
           {/* Small intro */}
           <p className="text-electric-indigo font-semibold mb-4 tracking-wide font-heading">
-            FULL-STACK Developer
+            BACKEND ENGINEER
           </p>
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white font-heading">
-            Architecting Scalable Solutions with Low-Latency Performance and Robust API Design.
+            Building Scalable APIs & Systems with Clean Architecture
           </h1>
 
-          {/* Technical Philosophy */}
+          {/* Short Description */}
           <div className="mb-8 mt-6">
             <p className="text-text-primary leading-relaxed text-lg mb-4">
-              I design and implement full-stack systems that deliver exceptional user experiences through microservices architecture, optimized state management, and comprehensive testing strategies.
+              I design and build backend systems focused on scalability, security, and maintainability using Node.js, TypeScript, and modern development practices.
             </p>
-            <ul className="space-y-2 text-text-secondary">
-              <li><strong>Scalability & Performance:</strong> Engineering systems that handle high traffic with sub-100ms response times and 99.9% uptime.</li>
-              <li><strong>Modern Architecture:</strong> Implementing micro-frontends, component libraries, and CI/CD pipelines for maintainable, deployable codebases.</li>
-              <li><strong>Developer Experience:</strong> Mentoring teams in clean code practices, TDD, and accessibility-first development.</li>
-            </ul>
+
+            <p className="text-text-secondary">
+              Currently focused on developing a production-grade authentication microservice, working with Docker, CI/CD pipelines, and database systems like PostgreSQL and MongoDB.
+            </p>
           </div>
 
           {/* Buttons */}
           <div className="mt-10 flex flex-wrap gap-4">
-            <a href="#projects" className="btn-primary">
+            <a href="#selected-works" className="btn-primary">
               View Projects
             </a>
 
@@ -50,13 +49,13 @@ function Hero() {
 
             {/* Card */}
             <div className="relative bg-refined-charcoal p-8 rounded-3xl shadow-xl border border-electric-indigo/20 backdrop-blur-sm">
-              <p className="text-sm text-text-secondary mb-2">Engineering Focus Areas</p>
+              <p className="text-sm text-text-secondary mb-2">Core Focus</p>
 
               <ul className="space-y-3 text-text-primary font-medium">
-                <li>Scalable React Architectures</li>
-                <li>Microservices & API Design</li>
-                <li>DevOps & Cloud Infrastructure</li>
-                <li>Performance Optimization</li>
+                <li>Backend Systems & API Design</li>
+                <li>Authentication & Security (JWT, RBAC)</li>
+                <li>Databases (PostgreSQL, MongoDB)</li>
+                <li>Docker & CI/CD Pipelines</li>
               </ul>
             </div>
           </div>
