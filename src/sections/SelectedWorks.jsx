@@ -86,10 +86,7 @@ function SelectedWorks() {
 
         {/* Section Header */}
         <div className="mb-14 text-center">
-          <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-            SELECTED WORKS
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-heading">
             Engineering Projects Focused on Real-World Systems
           </h2>
         </div>
@@ -102,7 +99,7 @@ function SelectedWorks() {
               className="card p-8 hover:shadow-xl hover:-translate-y-2 transition duration-300"
             >
               {/* Project Title */}
-              <h3 className="text-xl font-semibold text-white mb-4">
+              <h3 className="text-xl font-semibold text-slate-900 mb-4">
                 {project.title}
               </h3>
 

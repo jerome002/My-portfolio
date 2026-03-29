@@ -6,10 +6,7 @@ function Contact() {
       <div className="max-w-3xl mx-auto text-center">
 
         {/* Section Header */}
-        <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-          CONTACT
-        </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-heading">
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-heading">
           Let's Connect
         </h2>
 

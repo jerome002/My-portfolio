@@ -5,10 +5,7 @@ function EngineeringPhilosophy() {
 
         {/* Section Header */}
         <div className="mb-14 text-center">
-          <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-            ENGINEERING PHILOSOPHY
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-heading">
             Principles Behind My Approach to Building Systems
           </h2>
         </div>
@@ -16,7 +13,7 @@ function EngineeringPhilosophy() {
         <div className="grid md:grid-cols-3 gap-8">
 
           <div className="card p-8 bg-refined-charcoal border border-electric-indigo/20 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold text-white mb-3 font-heading">
+            <h3 className="text-xl font-semibold text-slate-900 mb-3 font-heading">
               Clean & Maintainable Code
             </h3>
             <p className="text-text-secondary text-sm">
@@ -27,7 +24,7 @@ function EngineeringPhilosophy() {
           </div>
 
           <div className="card p-8 bg-refined-charcoal border border-electric-indigo/20 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold text-white mb-3 font-heading">
+            <h3 className="text-xl font-semibold text-slate-900 mb-3 font-heading">
               Reliable & Testable Systems
             </h3>
             <p className="text-text-secondary text-sm">
@@ -38,7 +35,7 @@ function EngineeringPhilosophy() {
           </div>
 
           <div className="card p-8 bg-refined-charcoal border border-electric-indigo/20 backdrop-blur-sm">
-            <h3 className="text-xl font-semibold text-white mb-3 font-heading">
+            <h3 className="text-xl font-semibold text-slate-900 mb-3 font-heading">
               Continuous Improvement
             </h3>
             <p className="text-text-secondary text-sm">

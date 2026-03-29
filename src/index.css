@@ -1,10 +1,10 @@
 @theme {
-  --color-deep-slate: #0f172a;
-  --color-refined-charcoal: #1e293b;
-  --color-electric-indigo: #6366f1;
+  --color-deep-slate: #f8fafc;
+  --color-refined-charcoal: #ffffff;
+  --color-electric-indigo: #4f46e5;
   --color-emerald: #10b981;
-  --color-text-primary: #f1f5f9;
-  --color-text-secondary: #94a3b8;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
   --font-family-heading: "Montserrat", sans-serif;
   --font-family-body: "Roboto", sans-serif;
 }
@@ -23,6 +23,30 @@
 @media (prefers-contrast: high) {
   .text-gray-600 { color: #000; }
   .bg-slate-50 { background-color: #fff; }
+}
+
+/* Application background */
+:root {
+  --color-bg-start: #0f172a;
+  --color-bg-mid: #1e293b;
+  --color-bg-end: #0b1120;
+}
+
+body, #root {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(15, 23, 42, 0.015) 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.08;
+  z-index: -1;
 }
 
 /* Micro-interactions */
@@ -46,10 +70,10 @@
 
 /* Card styles - Glassmorphism */
 .card {
-  @apply bg-refined-charcoal/80 backdrop-blur-sm border border-electric-indigo/20 rounded-2xl shadow-lg;
+  @apply bg-white/80 text-slate-900 backdrop-blur-sm border border-slate-200 rounded-2xl shadow-lg;
 }
 
 .card-strong {
-  @apply bg-refined-charcoal/90 backdrop-blur-md border border-electric-indigo/30 rounded-3xl shadow-xl;
+  @apply bg-white/90 text-slate-900 backdrop-blur-md border border-slate-300 rounded-3xl shadow-xl;
 }
 

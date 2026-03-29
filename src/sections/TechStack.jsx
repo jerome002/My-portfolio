@@ -58,7 +58,7 @@ function TechStack() {
       items: [
         "JavaScript (ES6+)",
         "TypeScript",
-        "Python",
+        "Node.js",
         "SQL",
         "HTML5 & CSS3"
       ],
@@ -66,58 +66,48 @@ function TechStack() {
   ];
 
   return (
-    <section id="tech-stack" className="py-24 px-6 bg-deep-slate">
+    <section id="tech-stack" className="py-24 px-6 bg-slate-50">
       <div className="max-w-6xl mx-auto">
 
         {/* Section Header */}
         <div className="mb-14 text-center">
-          <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-            SKILLS
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-heading">
             Technologies & Systems I Work With
           </h2>
+          <p className="mt-3 max-w-2xl text-slate-500 mx-auto">
+            Professional toolkit centered on backend architecture, quality engineering,
+            and delivery excellence.
+          </p>
         </div>
 
-        {/* Positioning Line */}
-        <p className="text-slate-400 max-w-xl mx-auto mb-10 text-center">
-          Focused on backend engineering, system design, and building production-ready services.
-        </p>
-
         {/* Skills Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {techStack.map((group) => (
-            <div
+            <article
               key={group.category}
-              className="group card p-8 hover:shadow-xl hover:-translate-y-2 transition duration-300"
+              className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition transform hover:-translate-y-1"
             >
-              {/* Category */}
-              <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
-                <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
+              <h3 className="text-xl font-semibold text-slate-900 mb-4 flex items-center gap-2">
+                <span className="w-2 h-2 bg-indigo-500 rounded-full"></span>
                 {group.category}
               </h3>
 
-              {/* Skills */}
-              <ul className="space-y-3 text-slate-300 text-sm">
+              <ul className="grid gap-2 text-slate-700 text-sm">
                 {group.items.map((skill) => (
-                  <li
-                    key={skill}
-                    className="flex items-start gap-2 group-hover:text-cyan-200 transition"
-                  >
-                    <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <li key={skill} className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 mt-1 rounded-full bg-indigo-100"></span>
                     {skill}
                   </li>
                 ))}
               </ul>
-            </div>
+            </article>
           ))}
         </div>
 
         {/* Bottom Highlight */}
         <div className="mt-14 text-center">
-          <p className="text-slate-300 max-w-2xl mx-auto">
-            I build backend systems with a focus on scalability, security, and maintainability, 
-            while continuously improving in system design, testing, and DevOps practices.
+          <p className="text-slate-500 max-w-2xl mx-auto">
+            I deliver full-stack solutions with end-to-end quality: unit & integration tests, secure API design, and commercial-grade deployments.
           </p>
         </div>
 

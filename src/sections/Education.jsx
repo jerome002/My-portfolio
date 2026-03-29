@@ -27,10 +27,7 @@ function Education() {
     <section id="education" className="py-24 px-6 bg-deep-slate">
       <div className="max-w-6xl mx-auto">
         <div className="mb-14 text-center">
-          <p className="text-electric-indigo font-semibold tracking-wide mb-2 font-heading">
-            EDUCATION
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 font-heading">
             Academic & Practical Foundations in Technology
           </h2>
         </div>
@@ -41,7 +38,7 @@ function Education() {
               key={edu.degree}
               className="card p-8 hover:shadow-md hover:-translate-y-2 transition duration-300"
             >
-              <h3 className="text-xl font-semibold text-white mb-1 font-heading">
+              <h3 className="text-xl font-semibold text-slate-900 mb-1 font-heading">
                 {edu.degree}
               </h3>
               <p className="text-text-secondary mb-2">{edu.institution}</p>

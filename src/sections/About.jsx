@@ -5,10 +5,7 @@ function About() {
 
         {/* Section Header */}
         <div className="mb-12">
-          <p className="text-cyan-400 font-semibold tracking-wide mb-2">
-            ABOUT ME
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
             Backend-focused engineer building scalable systems
           </h2>
         </div>
@@ -35,7 +32,7 @@ function About() {
           <div className="grid gap-6">
 
             <div className="card p-6 hover:shadow-lg transition">
-              <h3 className="font-semibold text-white mb-2">
+              <h3 className="font-semibold text-slate-900 mb-2">
                 Systems Thinking
               </h3>
               <p className="text-slate-300 text-sm">
@@ -44,7 +41,7 @@ function About() {
             </div>
 
             <div className="card p-6 hover:shadow-lg transition">
-              <h3 className="font-semibold text-white mb-2">
+              <h3 className="font-semibold text-slate-900 mb-2">
                 Backend Specialization
               </h3>
               <p className="text-slate-300 text-sm">
@@ -53,7 +50,7 @@ function About() {
             </div>
 
             <div className="card p-6 hover:shadow-lg transition">
-              <h3 className="font-semibold text-white mb-2">
+              <h3 className="font-semibold text-slate-900 mb-2">
                 Continuous Improvement
               </h3>
               <p className="text-slate-300 text-sm">

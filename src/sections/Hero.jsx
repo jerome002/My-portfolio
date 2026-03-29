@@ -10,11 +10,11 @@ function Hero() {
         <div>
           {/* Small intro */}
           <p className="text-electric-indigo font-semibold mb-4 tracking-wide font-heading">
-            FULL-STACK ENGINEER & SYSTEMS DESIGNER
+            FULL-STACK Developer
           </p>
 
           {/* Headline */}
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white font-heading">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight text-slate-900 font-heading">
             Building Scalable APIs & Systems with Clean Architecture
           </h1>
 

@@ -9,7 +9,7 @@ import Contact from "./sections/Contact"
 
 function App() {
   return (
-    <div className="min-h-screen bg-deep-slate text-text-primary font-body">
+    <div className="min-h-screen bg-white text-slate-900 font-body">
       <Navbar />
       <Hero />
       <TechStack />
